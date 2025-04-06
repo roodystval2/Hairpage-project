@@ -166,7 +166,7 @@ header {
   }
   
   .footer-links a {
-    color: #fff;
+    color: black;
     text-decoration: none;
     transition: color 0.3s ease;
   }
@@ -207,3 +207,71 @@ header {
   #signup-form button:hover {
     background-color: pink;
   }
+
+  .ab-h2 {
+    color: palevioletred;
+    font-size: 28px;
+  }
+
+  .ab-p {
+    color: white;
+    font-size: 20px;
+  }
+
+  .aboutus-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 40px; /* space between left and right sides */
+}
+
+.about-us {
+    flex: 1;
+    max-width: 50%;
+}
+
+.book-info {
+    flex: 1;
+    max-width: 50%;
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.book-info h2 {
+    margin-bottom: 15px;
+}
+
+#bookinfoform fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#bookinfoform label {
+    display: flex;
+    flex-direction: column;
+}
+
+#bookinfoform input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#bookinfoform button {
+    padding: 10px 20px;
+    background-color: #ff0077;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#bookinfoform button:hover {
+    background-color: pink;
+}
