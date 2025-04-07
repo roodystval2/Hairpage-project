@@ -275,3 +275,28 @@ header {
 #bookinfoform button:hover {
     background-color: palevioletred;
 }
+
+.Business {
+  background-color: pink;
+  padding: 20px; /*this creates more space for the division or section*/
+  border-radius: 8px; /* this makes the corner of the section or division smoother*/
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  max-width: 600px; /*this controls how big or small the section or the division is*/
+}
+
+.Business h2 {
+  text-align: center;
+  color: black;
+}
+
+#hours {
+  width: 100%; /*this creates space between the words*/
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+#hours td {
+  padding: 15px; /* this creates space between the words and stuff*/
+  border: 2px solid; /*this creates borders for the table*/
+}
