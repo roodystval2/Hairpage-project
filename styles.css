@@ -300,3 +300,62 @@ header {
   padding: 15px; /* this creates space between the words and stuff*/
   border: 2px solid; /*this creates borders for the table*/
 }
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout for the bottom area */
+.bottom-area {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Style for both sections */
+#reviews, #leave-review {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+/* Review section */
+#reviews h2,
+#leave-review h2 {
+  margin-bottom: 10px;
+}
+
+/* Each review block */
+.review {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  background-color: pink;
+}
+
+/* Form inputs */
+form input, 
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+/* Button */
+form button {
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: palevioletred;
+  color: white;
+  border-radius: 8px;
+}
+
+#leave-review {
+  background-color: pink;
+  border-radius: 8px;
+}
