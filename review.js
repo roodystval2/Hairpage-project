@@ -1,4 +1,4 @@
-<script>
+
     // Get the form and elements
     const form = document.querySelector('#leave-review form');
     const nameInput = document.querySelector('#name');
@@ -52,4 +52,3 @@
         // Reset form after submission
         form.reset();
     });
-</script>
