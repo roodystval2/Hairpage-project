@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width" /> 
 
         <link rel="stylesheet" href="styles.css">
+        <script type="module" src="review.js"></script>
     </head>
     <body>
         <header>
@@ -63,17 +64,17 @@
     
         <section id="leave-review">
             <h2>Leave a Review</h2>
-    
+        
             <form action="#" method="post">
                 <label for="name">Your Name:</label><br>
                 <input type="text" id="name" name="name" required><br><br>
-    
+        
                 <label for="rating">Rating (1-5):</label><br>
                 <input type="number" id="rating" name="rating" min="1" max="5" required><br><br>
-    
+        
                 <label for="review">Your Review:</label><br>
                 <textarea id="review" name="review" rows="5" required></textarea><br><br>
-    
+        
                 <button type="submit">Submit Review</button>
             </form>
         </section>
@@ -98,6 +99,6 @@
             </div>
         </div>
     </footer>
-
+    <script type="module" src="signup.js"></script>
     </body>
 </html>
